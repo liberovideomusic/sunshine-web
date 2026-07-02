@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunshine – Sala Premiere</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="premiere.css">
+
+    <!-- Open Graph per Twitter/X, Facebook, WhatsApp -->
+    <meta property="og:title" content="Sunshine – Sala Premiere">
+    <meta property="og:description" content="Entra nella Sala Premiere e vivi l’esperienza musicale in diretta.">
+    <meta property="og:image" content="https://liberovideomusic.staticdomains.app/premiere.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://liberovideomusic.staticdomains.app/premiere.html">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sunshine – Sala Premiere">
+    <meta name="twitter:description" content="Entra nella Sala Premiere e vivi l’esperienza musicale in diretta.">
+    <meta name="twitter:image" content="https://liberovideomusic.staticdomains.app/premiere.jpg">
+</head>
+<body class="premiere-body">
+    <div class="premiere-wrapper">
+        <header class="premiere-header">
+            <h1 id="premiere-title">Sala Premiere</h1>
+            <p id="premiere-description" class="premiere-description"></p>
+        </header>
+
+        <main class="premiere-main">
+            <section class="premiere-video-area">
+                <div class="video-frame">
+                    <div class="video-inner-glow"></div>
+                    <div id="video-container" class="video-container">
+                        <!-- Iframe YouTube inserito da premiere.js -->
+                    </div>
+                </div>
+            </section>
+
+            <aside class="premiere-chat-area">
+                <div class="chat-header">
+                    <span class="chat-title">Chat della Sala</span>
+                </div>
+                <div id="chat-messages" class="chat-messages">
+                    <!-- Messaggi chat -->
+                </div>
+                <div class="chat-input-bar">
+                    <input type="text" id="chat-input" placeholder="Scrivi un messaggio..." />
+                    <button id="chat-send">Invia</button>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="premiere.js"></script>
+</body>
+</html>

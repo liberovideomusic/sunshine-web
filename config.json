@@ -1,0 +1,13 @@
+{
+    "videoId": "zFZnsIlBs74",
+    "title": "Un Disco per l'estate story",
+    "description": "Nei ricordi di tuffi fra le onde e di baci a labbra salate. Sole, iodio, salsedine e tanta libertà",
+    "eventDate": "",
+    "welcomeMessage": "Benvenuti nella Sala Premiere! La proposta musicale di oggi è un perdersi nei ricordi dei jukebox estivi",
+    "theme": "dark-wurlitzer",
+    "chat": {
+        "font": "Cambria",
+        "maxMessages": 200,
+        "showTimestamps": true
+    }
+}
